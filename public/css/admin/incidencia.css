@@ -1,0 +1,42 @@
+ .tbl-scroll{
+  max-height: 450px;
+  overflow: hidden;
+}
+fieldset{
+  max-width: 100% !important;
+  border: 1px solid #999;
+  padding:5px 15px 8px 15px;
+  border-radius: 10px; 
+}
+legend{
+  font-size:14px;
+  font-weight: 700;
+  width: 12%;
+  border-bottom: 0px;
+  margin-bottom: 0px;
+}
+.slct_days{
+  border-radius: 5px !important;
+}
+
+.bootstrap-tagsinput{
+  background-color:#F5F5F5 !important;
+  border-radius:7px !important;
+  border: 1px solid;
+  padding:5px;
+}
+
+.bootstrap-tagsinput .label-info{
+  background-color: #337ab7 !important;
+}
+
+.bootstrap-tagsinput input{
+  display: none;
+}
+
+.btn-yellow{
+  color: #0070ba;
+  background-color: ghostwhite;
+  border-color: #ccc;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+#horario tr td:hover { background: #666; color: #FFF; }
+#horario tr td {
+    background: #FAFAFA;
+    font-size: 0.9em;
+    text-align: center;
+}
+#horario td, th { 
+    border: 1px solid #b2a7a7; No more visible border
+    height: 30px; 
+    transition: all 0.3s;  Simple transition for hover effect
+}

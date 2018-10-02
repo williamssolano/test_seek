@@ -1,0 +1,5 @@
+.btnVisible{width: 100%; margin: 10px auto;}
+.botonesValidacion.active, #resultados.active{border-top: 2px solid #c1c1c1; background: #fff; border-radius: 3px; margin-bottom: 20px;}
+#resultados{padding: 10px 0px;}
+#resultados .col-md-12{padding: 0px;}
+#resultados label.titulo{text-align: center; width: 100%; display: block; text-transform: uppercase;}

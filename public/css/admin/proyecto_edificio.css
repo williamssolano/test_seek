@@ -1,0 +1,72 @@
+.selected-di,
+.selected-green{background-color: #A9F5A9 !important;}
+.selected-yellow{background-color: #F2F5A9 !important;}
+.selected-li,
+.selected-skyblue{background-color: #A9F5F2 !important;}
+.selected-oo,
+.selected-narrow{background-color: #F5D0A9 !important;}
+.selected-ca,
+.selected-blue{background-color: #A9BCF5 !important;}
+.selected-pr,
+.selected-red{background-color: #F5A9A9 !important;}
+.selected-in,
+.selected-purple{background-color: #BCA9F5 !important;}
+.btn-me,
+.selected-me,
+.selected-orange{background-color: #F7BE81 !important;}
+.selected-re{background-color: #F4FA58 !important;}
+.selected-hf{background-color: #D8D8D8 !important;}
+.selected-tr{background-color: #E6E6E6 !important;}
+.selected-po{background-color: #E6E6E6 !important;}
+.btn-me{border-color: #FAAC58;color: #fff;}
+
+.w-50{width:50px;}
+.w-100{width:100px;}
+.colunm-acciones a{display:inline-block;}
+.colunm-acciones{text-align: center;}
+/*#form_proyectoEdificio select,
+#form_proyectoEdificio input{text-transform: uppercase;}*/
+#proyectoEdificioModalNav li a span{display: inline;}
+#form_proyecto_provisional label{height: 40px;}
+#tab_1_section{height: 80px;overflow: hidden;}
+#boton_mapa_mostrar, 
+#boton_calle_mostrar{display: none;}
+@media(max-width: 600px) {
+    #form_proyecto_provisional label{height: auto;}
+    #pano,
+    #proyectoEdificioModalNav li a span{display: none;}
+    #tab_1_section{height: auto;}
+    #boton_mapa_mostrar, 
+    #boton_calle_mostrar{display: inline-block;}
+    .colunm-acciones a {margin-bottom: 5px;}
+}
+@media screen and (max-width: 480px) {
+
+}
+#map, #pano {width: 100%; height: 345px;display: block;}
+.form-proyecto-tipo{display:none;}
+.modal-footer {padding: 5px 15px 8px;}
+/* ========
+   DATATABLE
+   ======== */
+div.dataTables_info,
+div.dataTables_paginate{padding-top: 15px;}
+.box-header div.dataTables_length{margin:10px 0 0 10px;}
+td.details-control {
+    background: url('../../img/admin/datatable/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.details-control {
+    background: url('../../img/admin/datatable/details_close.png') no-repeat center center;
+}
+/* ========
+   ADMINLTE
+   ======== */
+.box-header.with-border {
+    border-bottom: 1px solid #f4f4f4;
+}
+.resumen-totales{width: auto; display: inline-block; float: left; margin-top: 8px;}
+.resumen-totales a{display: inline-block; float: left; z-index: 0; padding: 0px !important; height: 35px !important; border: none !important; line-height: 35px; margin: 0px !important; margin-right: 15px !important;}
+form[name=form_proyecto_provisional]{display: block;}
+button#btnAccionMega{border: none; margin-bottom: 10px; margin-top: -10px;}
+#tab_1 hr{border-top: 2px solid #B5ACAC;}

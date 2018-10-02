@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>jenn</name>
+		<Placemark>
+			<name>Punto 1</name>
+			<styleUrl>#icon-1899-795548-nodesc</styleUrl>
+			<Point>
+				<coordinates>-77.018795,-12.0807851,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Polígono 2</name>
+			<styleUrl>#poly-A52714-1-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>-77.0139027,-12.0824637,0.0 -77.0210266,-12.0814565,0.0 -77.0245886,-12.0864083,0.0 -77.0285154,-12.0907306,0.0 -77.0181942,-12.0905208,0.0 -77.0124006,-12.0906467,0.0 -77.0114135,-12.0845619,0.0 -77.0139027,-12.0824637,0.0</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Style id='icon-1899-795548-nodesc-normal'>
+			<IconStyle>
+				<color>ff485579</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-1899-795548-nodesc-highlight'>
+			<IconStyle>
+				<color>ff485579</color>
+				<scale>1.0</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-1899-795548-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-1899-795548-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-1899-795548-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='poly-A52714-1-77-nodesc-normal'>
+			<LineStyle>
+				<color>ff1427A5</color>
+				<width>1</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D1427A5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='poly-A52714-1-77-nodesc-highlight'>
+			<LineStyle>
+				<color>ff1427A5</color>
+				<width>2.0</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>4D1427A5</color>
+				<fill>1</fill>
+				<outline>1</outline>
+			</PolyStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='poly-A52714-1-77-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#poly-A52714-1-77-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#poly-A52714-1-77-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>

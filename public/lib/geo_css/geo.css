@@ -1,0 +1,171 @@
+
+#geo_wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+#geo_tools {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+#geo_map {
+    width: 70%;
+    height: 100%;
+    float: right;
+    background-color: papayawhip;
+}
+
+#btn_tools {
+    display: none;
+    position: absolute;
+}
+
+.color-picker {
+    margin:0;
+    padding:0;
+    border:0;
+    width:70px;
+    height:20px;
+    border-right:20px solid #F7584C;
+    line-height:20px;
+}
+
+.demoPolygon {
+     width: 80px;
+     height: 80px;
+}
+
+.newMarkerBackground {
+    float: right; 
+    position: relative; 
+    background-color: #F7584C; 
+    width: 43px; 
+    height: 64px
+}
+
+#accordion {
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#accordion div {
+    padding: 0px;
+    font-size: 12px;
+}
+
+.colpick {
+    z-index: 2000;
+}
+
+.searchElementForm {
+    padding: 3px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1B5790;
+}
+
+.geo_item {
+    padding: 3px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1B5790;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.cellLabel {
+    padding: 4px;
+}
+
+.itemListaProyecto {
+    display: table-row;
+    font-size: 13px;
+}
+.itemListaProyecto:hover {
+    background-color: #e1e1f7;
+}
+
+.infoWinP{
+    font-family: verdana;
+    font-size: 12px;
+}
+
+.picker {
+    margin:0;
+    padding:0;
+    border:0;
+    width:70px;
+    height:20px;
+    border-right:20px solid #F7584C;
+    line-height:20px;
+}
+
+.circle{
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    font-size:12px;
+    color:#000000;
+    line-height:20px;
+    text-align:center;
+    background:#ffff00;
+    vertical-align: middle;
+    float: left;
+}
+
+.dirContainer{
+    overflow: auto;
+}
+
+.dropMarkerLink{
+    float: left;
+}
+
+#currentProject{
+    max-height: 300px;
+    overflow: auto;
+}
+
+.btnMain {
+    width: 100px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #858585;
+    background-color: #F7584C;
+    color: #FFFFFF;
+    height: 25px;
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modalPop {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0, 0, 0, .5 ) 
+                url(../images/ajax-loader.gif) 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modalPop {
+    display: block;
+}

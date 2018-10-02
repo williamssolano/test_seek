@@ -1,0 +1,231 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/04/2014, 02:38:59 PM
+    Author     : CV
+*/
+
+#menu {
+    float: left;
+    width: 45%;
+    height: 100%;
+    overflow: auto;
+    position: absolute;
+    z-index: 999;
+    background-color: #FFFFFF;
+}
+#content {
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+body, html {
+    height: 100%;
+    width: 100%;
+}
+#map-canvas {
+    width: 100%; height: 100%;
+}
+#map-over {
+    position: absolute; 
+    top: 40px; 
+    left: 80px; 
+    z-index: 999;
+    background-color: #FFFFFF;
+}
+#map-wrapper { position: relative; height: 100%}
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 580px;
+    margin: 20px auto;
+}
+.map-ctrl-container {
+    margin: 2px auto;
+    position: relative;
+}
+.map-ctrl-block {
+    background: #DFDBD4;
+    height: 25px;
+    width: 100px;
+    float: left;
+    margin: 3px;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+}
+#map-ctrl-inherit select option { font-size: 10pt; }
+.itemSelect {
+    background-color: #e1e3ed;
+    margin: 5px 2px 0px 2px;
+    padding: 5px;
+}
+.departamento {background-color: #00527A; color: #FFFFFF; margin: 5px, 0px, 5px, 0px; padding: 7px;}
+.provincia {background-color: #0085C7; margin: 5px, 0px, 5px, 0px; padding: 7px;}
+.distrito {background-color: #FFFFFF; color: #00527A; margin: 5px, 0px, 5px, 0px; padding: 7px;}
+.itemSelected {background-color: #C76300; color: #FFFFFF;}
+
+/*.geo_item {display: none; float: left};*/
+.geo_item_active {display: block; float: left};
+
+#slider { width: 200px; }
+
+.simpleColorDisplay {
+    width: 100px;
+    height: 30px;
+}
+
+#layoutList {
+    font-size: 15px;
+}
+
+#tabControl {
+    position: absolute;
+    z-index: 10; 
+}
+
+.button_example{
+    min-width: 100px;
+    border:1px solid #25729a;-webkit-box-shadow: #B4B5B5 3px 3px 3px  ;-moz-box-shadow: #B4B5B5 3px 3px 3px ; box-shadow: #B4B5B5 3px 3px 3px  ; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:verdana, sans-serif; padding: 7px 7px 7px 7px; text-decoration:none; display:inline-block;font-weight:bold; color: #FFFFFF;
+    background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+    background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+    background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+    background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+    background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+    background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+
+.button_example:hover{
+    border:1px solid #1c5675;
+    background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+    background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+    background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+    background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+    background-image: -o-linear-gradient(top, #26759e, #133d5b);
+    background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+
+.saveAllEditLayer{
+    border:1px solid #25729a;-webkit-box-shadow: #B4B5B5 3px 3px 3px  ;-moz-box-shadow: #B4B5B5 3px 3px 3px ; box-shadow: #B4B5B5 3px 3px 3px  ; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:verdana, sans-serif; padding: 7px 7px 7px 7px; text-decoration:none; display:inline-block;font-weight:bold; color: #FFFFFF;
+    background-color: #3093c7; background-image: -webkit-gradient(linear, left top, left bottom, from(#3093c7), to(#1c5a85));
+    background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
+    background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
+    background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
+    background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
+    background-image: linear-gradient(to bottom, #3093c7, #1c5a85);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#3093c7, endColorstr=#1c5a85);
+}
+
+.saveAllEditLayer:hover{
+    border:1px solid #1c5675;
+    background-color: #26759e; background-image: -webkit-gradient(linear, left top, left bottom, from(#26759e), to(#133d5b));
+    background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
+    background-image: -moz-linear-gradient(top, #26759e, #133d5b);
+    background-image: -ms-linear-gradient(top, #26759e, #133d5b);
+    background-image: -o-linear-gradient(top, #26759e, #133d5b);
+    background-image: linear-gradient(to bottom, #26759e, #133d5b);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#26759e, endColorstr=#133d5b);
+}
+
+.searchElementForm {
+    padding: 3px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1B5790;
+}
+
+.geo_item {
+    padding: 3px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #1B5790;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.cellLabel {
+    padding: 4px;
+}
+
+.itemListaProyecto {
+    display: table-row;
+    font-size: 13px;
+}
+.itemListaProyecto:hover {
+    background-color: #e1e1f7;
+}
+
+.infoWinP{
+    font-family: verdana;
+    font-size: 12px;
+}
+
+.picker {
+    margin:0;
+    padding:0;
+    border:0;
+    width:70px;
+    height:20px;
+    border-right:20px solid green;
+    line-height:20px;
+}
+
+.circle{
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    font-size:12px;
+    color:#000000;
+    line-height:20px;
+    text-align:center;
+    background:#ffff00;
+    vertical-align: middle;
+    float: left;
+}
+
+.dirContainer{
+    overflow: auto;
+}
+
+.dropMarkerLink{
+    float: left;
+}
+
+.dirText{
+    
+}
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   speak for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modalPop {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0, 0, 0, .5 ) 
+                url(../images/ajax-loader.gif) 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modalPop {
+    display: block;
+}

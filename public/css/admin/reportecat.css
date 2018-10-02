@@ -1,0 +1,7 @@
+#form_General.envio-masivo .btn-group.col-xxs-12 {padding: 0px;}
+#form_General.envio-masivo label.titulo {width: 100%; text-align: center; display: block;}
+#form_General.envio-masivo label.titulo.titulo-botones {text-align: left;}
+#form_General.envio-masivo a {margin-right: 10px;}
+#form_General.envio-masivo{margin-top: 15px;}
+#t_envio_masivo thead th, #t_envio_masivo tbody td{text-align: center;}
+#accordion-filtros .panel-heading.box.box-primary {margin-bottom: 0px;}

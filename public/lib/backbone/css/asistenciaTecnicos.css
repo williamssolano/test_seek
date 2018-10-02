@@ -1,0 +1,74 @@
+#childModal2 {
+    position: fixed;
+    height: 80px;
+    width: 200px;
+    left: 35%;
+    top: 50%;
+    margin-left: -40px;
+    margin-right: -100px;
+}
+
+.th_res_grupal2 {
+    font: 10px "Century Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    background-color: #6E9CC8;
+    text-align: center;
+    border-bottom: 1px solid #e5eff8;
+    border-left: 1px solid #e5eff8;
+    padding: .3em 1em;
+}
+
+.td_res_grupal2 {
+    font: 11px "Century Gothic", "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: #000000;
+    background: #E5F1F4;
+    border-bottom: 1px solid #e5eff8;
+    border-left: 1px solid #e5eff8;
+    padding: .3em 1em;
+    text-align: center;
+    border-bottom: 1px solid #5A7399;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#paginacion {
+    text-align: center;
+    font-weight: bold;
+}
+
+#paginacion a {
+    text-align: center;
+    font-weight: normal;
+}
+
+#filtros {
+    margin: 20px;
+}
+
+#filtros .control-label {
+    background: #1b5790;
+    color: #fff;
+    padding: 5px;
+    width: 75px;
+    display: inline-block;
+    margin: 5px 0;
+    border-radius: 3px;
+}
+
+#filtros select {
+    width: 200px;
+}
+
+.nueva a {
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+button.ui-multiselect,
+#tecnicos_ot{
+    width: 300px !important;
+}
+

@@ -1,0 +1,56 @@
+#table-tec {
+    width: 100%;
+    text-align: center;
+}
+#table-tec th {
+    background: #ccc;
+}
+#table-tec td {
+    border: 1px solid #ccc;
+}
+.detalle {
+    cursor: pointer;
+    padding: 10px;
+}
+.row-tec:hover {
+    background: #c0dddc;
+}
+.row-tec.tareas{
+    background: #ddffdf;
+}
+/*.active{
+    font-weight: bold;
+}*/
+td.active {
+    background: #eeffaa;
+}
+button.ui-multiselect, #tecnicos_ot {
+    width: 200px !important;
+}
+.pen-0001-Inicio.active,
+.pen-0001-Inicio.tareas,
+.pen-0.active,
+.pen-0.tareas{
+    background:#ffb1b1 ;
+}
+
+.pen-0002-Supervision.active,
+.pen-0002-Supervision.tareas,
+.pen-1.active,
+.pen-1.tareas{
+    background:#f5ffb3 ;
+}
+
+.pen-0003-Cierre.active,
+.pen-0003-Cierre.tareas,
+.pen-2.active,
+.pen-2.tareas{
+    background:#cdffb3   ;
+}
+
+.detalle:hover{
+    background: #b1a6e8;
+}
+#table-tec th.estado-ot{
+    background: #E0FF84;
+}

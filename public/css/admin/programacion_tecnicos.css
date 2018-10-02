@@ -1,0 +1,46 @@
+label.titulo{text-align: center; width: 100%; margin: 5px auto;}
+#form_General div.btn-group.col-xxs-12, #form_Personalizado div.btn-group.col-xxs-12{padding: 0px !important}
+#form_General div.col-sm-1 a.btn-primary.btn-sm {margin-top: -10px;}
+#form_General legend {display: block; width: 100%; padding: 5px 40px; margin: 10px auto; font-size: 18px; line-height: inherit; color: #333; border: 0; border-bottom: 1px solid #e5e5e5;}
+/*#t_bandeja tr table tr{display: inline-block; width: auto;}*/
+span.estado-masivo.no-enviadoo{background: #D41818;padding: 2px;text-align: center;width: 100%;display: block;color: #fff;}
+span.envio-masivo.enviado{background: #008d4c;padding: 2px;text-align: center;width: 100%;display: block;color: #fff;}
+.contenedor-botones-flotantes { z-index: 666;   position: fixed; bottom: 5px;  padding: 10px; width: 100%; height: 50px;}
+.contenedor-derecho {   margin-bottom: 0px; background: rgba(14, 14, 14, 0.13); right: 15px;  height: inherit;  width: auto;   position: inherit; bottom: 5px;  padding: 10px;}
+.contenedor-izquierdo { display: none;  max-width: 500px; width: auto; position: inherit; bottom: 5px; left: 15px; padding: 0px; height: inherit;}
+.btn-ejecutar-masivo{display: none; margin: 0px auto; margin-left: 15px;}
+#accordion-filtros .panel-heading.box{margin-bottom: 0px;}
+#t_bandeja thead th, #t_bandeja tbody td, #t_bandeja tfoot th{text-align: center;}
+span.cont_checkbox{display: none;}
+span.checkbox_fila{display: none;  vertical-align: middle;}
+span.txt_id {display: inline-block; vertical-align: middle;}
+tr.fila-activa-masivo {}
+#accordion-resultados .panel-heading{padding: 0px;}
+#collapseThree { margin-top: -300px; min-height: 250px; border-radius: 5px; border-color: rgba(0, 0, 0, 0.117647);  border-style: solid; background: rgb(255, 255, 255); z-index: 6666; position: fixed;}
+#collapseThree .panel-body{  max-width: 500px;}
+thead tr th, tfoot tr th {text-align: center;}
+tbody tr td {vertical-align: middle !important; text-align: center;}
+#t_programacion_tecnico tbody tr td ul {padding: 0px; list-style: none;}
+#t_programacion_tecnico tbody tr td ul li  a{width: auto; padding: 5px;  display: block; margin: 5px auto; cursor: pointer;  color: #000;}
+#t_programacion_tecnico tbody tr td ul li  a.pending{background: #ffde00;}
+#t_programacion_tecnico tbody tr td ul li  a.started{background: #5dbe3f;}
+#t_programacion_tecnico tbody tr td ul li  a.suspended{background: #99ffff;}
+#t_programacion_tecnico tbody tr td ul li  a.notdone{background: #60cece;}
+#t_programacion_tecnico tbody tr td ul li  a.cancelled{background: #80ff80;}
+#t_programacion_tecnico tbody tr td ul li  a.complete{background: #79b6eb;}
+#t_programacion_tecnico tbody tr td ul li  a.deprogrammed{}
+#t_programacion_tecnico tbody tr td ul li  a.null{}
+ table tbody tr td a{width: auto; padding: 5px;  display: block; margin: 5px auto; cursor: pointer;  color: #000 !important;}
+table tbody tr td a.pending{background: #ffde00;}
+table tbody tr td a.started{background: #5dbe3f;}
+table tbody tr td a.suspended{background: #99ffff;}
+table tbody tr td a.notdone{background: #60cece;}
+table tbody tr td a.cancelled{background: #80ff80;}
+table tbody tr td a.complete{background: #79b6eb;}
+table tbody tr td a.deprogrammed{}
+table tbody tr td a.null{}
+#accordion-resultados .panel-title{padding: 12px;  color: #7b6969;  font-weight: 700; font-size: 14px;}
+#map_loc_street, #map_loc_classic,
+ #codactu_modal_mapObjectMulti1,
+#codactu_modal_mapObjectMulti2,
+#codactu_modal_mapObjectMulti3 { width: 100%; height: 300px; margin: 0px auto; padding: 0px }

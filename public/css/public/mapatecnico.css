@@ -1,0 +1,216 @@
+html, body { height: 100%; margin: 0; padding: 0; }
+.ordenactividades{
+    font-weight: 300;
+    margin-right: 35px;
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    line-height: 28px;
+}
+.tecnicoVerde {
+    color: black;
+    background-color: #A5D6A7;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.tecnicoNaranja {
+    color: black;
+    background-color: #FFCC80;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.tecnicoRojo {
+    color: black;
+    background-color: #EF9A9A;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.tecnicoAzul {
+    color: black;
+    background-color: #9FA8DA;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.pending {
+    color: black;
+    background-color: #EFFF12;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.started {
+    color: black;
+    background-color: #5DBE3F;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.complete {
+    color: black;
+    background-color: #9BB6C2;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.suspended {
+    color: black;
+    background-color: #ABFFBC;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.notdone {
+    color: black;
+    background-color: #1414FF;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+.cancelled {
+    color: black;
+    background-color: #80FF80;
+    font-family: "Lucida Grande", "Arial", sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    max-width: 110px;
+    border: 1px solid black;
+    white-space: nowrap;
+}
+/*INICIO - MODAL TECNICOS*/
+
+
+#close {
+    float: right;
+    font-weight: bold;
+    color: red;
+}
+
+
+/*FIN - MODAL TECNICOS*/
+#contenedor {
+    position: fixed;
+    z-index: 999;
+    height: 440px;
+    width: 220px;
+    bottom: 0;
+    background : rgba(255,255,255,0.5);
+}
+/*.car {
+    font-size: 0.875em;
+}*/
+#map { 
+    height: 100%; 
+    //padding: 20px; 
+    border: 2px solid #CCC; 
+    margin-bottom: 20px; 
+    background-color:#FFF
+}
+.botones {
+    z-index: 9999;
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    margin-left: 20px;
+}
+.botones:hover{
+    opacity: .8;
+}
+#mensaje {
+    top: 600px; /**/
+    z-index: 9999;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.caja-estado{height: 40px !important;
+    border-radius: 23px !important;
+    width: 40px !important;
+    margin-left: -30px !important;}
+.caja-estado div div{color: #fff; top: 24px; text-transform: uppercase; font-size: 9px;}
+.caja-estado div div.m{background: #992a2a;}
+.caja-estado div div.r{ background: #2a9956; }
+div.scroll {
+                margin-top: 10px;
+                height: 650px;
+                /*width: 400px;*/
+                border: 1px solid #ddd;
+                background: #f1f1f1;
+                overflow-y: scroll;
+                overflow-x: hidden;
+                /*padding-left: 30px;*/
+            }
+#tecnicos{
+    margin-top: -21px;
+}
+#tecnicos ul{padding: 0px; list-style: none;}
+#tecnicos ul li{ margin: 5px 0px; padding: 0px; 
+    border: none;
+    /*border: 1px solid #ccc;*/
+    border-top: 1px solid #ccc;
+}
+#tecnicos ul li span{ display: block; width: 100%; font-size: 12px; margin-bottom: -8px; }
+#tecnicos ul li div.izquierda { display: inline-block; width:  auto; vertical-align: middle; height: 50px;
+    border-right: 1px solid #ccc;
+    /*border-top: 1px solid #ccc;*/
+    /*border-left: 1px solid #ccc;*/
+
+}
+#tecnicos ul li div.derecha {
+    display: inline-block;
+     /*width:  auto; */
+     width: 350px;
+     vertical-align: middle; height: 43px;
+    margin-left: 5px; max-width: calc(100% - 45px); max-width: -webkit-calc(100% - 45px); 
+    max-width: -moz-calc(100% - 45px);}
+#tecnicos ul li div img{margin: 5px auto;}
+.slideleft-transition .aside-body{padding: 3px !important;}
+h2.titulo {font-size: 18px; text-align: center; background: #3c73a3; padding: 8px 0px; color: #fff; margin-top: 0px;}
+h2.titulo span{font-weight: 300}
+.fila .btn-group {width: 100%;}
+.fila button{width:100%; margin-bottom: 10px; display: inline-block; vertical-align: middle;}
+.separador{border-top: 1px solid #e5e5e5; margin: 20px 0px;}
+#jsonactHistorico, #historicoProceso {margin-bottom: 10px;}
+ul li {list-style: none;}
+ul li span {margin-left: 15px;}
+.botones button, .botones a {margin: 10px auto; width: 100%; text-align: center;}

@@ -1,0 +1,11 @@
+.listado-tecnicos{list-style: none;  padding: 0px; max-height: 180px;  overflow-y: scroll;}
+.listado-tecnicos li{ height: 50px; display: block; padding: 0px; margin: 5px 0px; border: dotted 2px #337ab7;  padding: 0px 5px;}
+.listado-tecnicos a{color: #000;}
+.listado-tecnicos a i.fa-male{  font-size: 32px; vertical-align: middle; line-height: 50px;}
+.listado-tecnicos a span {display: inline-block; width: calc(100% - 40px); width: -webkit-calc(100% - 40px); width: -moz-calc(100% - 40px); vertical-align: middle; margin-left: 10px;  padding: 5px;}
+.etiqueta-tecnicos{width: auto; margin-left: -15px !important; margin-top: 5px !important; background: #fff; padding: 5px; margin-bottom: 10px !important; font-weight: 900;  font-size: 12px;}
+.etiqueta-actividad{width: 60px;  background: rgba(51,51,51,0.5); margin-top: 3px !important; margin-left: -17px !important;  border-radius: 10px; padding: 5px 0px;  text-align: center; color: #fff;}
+.contenedor-tecnicos .panel-heading.box.box-primary {margin-bottom: 0px;}
+.contenedor-tecnicos .col-md-12 {margin-bottom: 20px;}
+.skin-blue .right-side>.content-header{padding: 5px 15px;}
+.right-side>.content-header>.breadcrumb{padding: 5px 5px;     top: 5px; }

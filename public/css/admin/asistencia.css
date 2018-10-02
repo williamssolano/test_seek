@@ -1,0 +1,21 @@
+.btn-envio-sms, .btn-detalle-carnet, .btn-detalle-agendas{border-radius: 40px; padding: 7px 7px; display: inline-block; text-align: center; margin-bottom: 5px; width: 33px; margin-right: 3px;}
+.btn-envio-sms i.fa-envelope-o, .btn-detalle-carnet i.fa-male, .btn-detalle-agendas i{font-size: 18px; line-height: 20px; text-align: center;}
+.label-tiempo{width: 80px !important; display: block; margin: 0px auto;}
+.modal#asistenciaModal{overflow: auto !important}
+.modal-title{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;  max-width: 100%;}
+#contenedor-registro-asistencia .panel-group .panel.panel-default{margin-bottom: 15px;}
+#contenedor-registro-asistencia .panel-group .panel-collapse.collapse.in{padding: 10px;}
+.orden-requerimiento{ display: block; color: #fff; background: #de2929; padding: 5px 10px; border-radius: 12px; font-weight: 700; max-width: 27px; margin: 0px auto;}
+.table-requerimiento-tecnico tr td, .table-requerimiento-tecnico tr th{max-width: 30px; vertical-align: middle !important; text-align: center;}
+.orden-requerimiento-mapa {width: 20px; display: block; text-align: center; margin-left: 8px; background: #fff; z-index: 9999999; height: 20px; border-radius: 8px; font-weight: 700; font-size: 15px;padding: 1px;}
+@media (max-width: 600px) {
+	.tbody-asistencia-ofsc tr td:eq(1) a.btn-danger, .tbody-asistencia-ofsc tr td:eq(2) a.btn-danger{display: block; width: 60px; margin: 0px auto;}
+	.tbody-asistencia-ofsc tr td:first-child{font-size: 12px;}
+	.btn-envio-sms, .btn-detalle-carnet, .btn-detalle-agendas{ display: block; margin: 5px auto;}
+	.panel-title{font-size: 14px;}
+	.btn-ubicacion-tecnico{ max-width: 45px; display: block; margin: 0px auto;}
+	
+}
+@media (max-width: 450px) {
+	.table-bucket tr th, .table-bucket tr td{max-width: 50px;}
+}
